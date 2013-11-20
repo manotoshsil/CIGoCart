@@ -1111,15 +1111,3 @@ DEBUG - 2013-11-18 07:53:33 --> Helper loaded: directory_helper
 DEBUG - 2013-11-18 07:53:33 --> File loaded: gocart/themes/default/views/homepage.php
 DEBUG - 2013-11-18 07:53:33 --> Final output sent to browser
 DEBUG - 2013-11-18 07:53:33 --> Total execution time: 0.5130
-DEBUG - 2013-11-18 08:03:02 --> Config Class Initialized
-DEBUG - 2013-11-18 08:03:02 --> Hooks Class Initialized
-DEBUG - 2013-11-18 08:03:02 --> Utf8 Class Initialized
-DEBUG - 2013-11-18 08:03:02 --> UTF-8 Support Enabled
-DEBUG - 2013-11-18 08:03:02 --> URI Class Initialized
-DEBUG - 2013-11-18 08:03:02 --> Router Class Initialized
-DEBUG - 2013-11-18 08:03:02 --> Database Driver Class Initialized
-ERROR - 2013-11-18 08:03:02 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host.
- C:\xampp\htdocs\CIGoCart\system\database\drivers\mysql\mysql_driver.php 91
-ERROR - 2013-11-18 08:03:04 --> Severity: Warning  --> mysql_pconnect(): Link to server lost, unable to reconnect C:\xampp\htdocs\CIGoCart\system\database\drivers\mysql\mysql_driver.php 91
-ERROR - 2013-11-18 08:03:04 --> Unable to connect to the database
-DEBUG - 2013-11-18 08:03:04 --> Language Class Initialized

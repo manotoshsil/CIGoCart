@@ -155,12 +155,11 @@ class Cart extends Front_Controller {
 	{
 		//get the category
 		$data['category']			= $this->Category_model->get_category($id);
-		$this->load->model('Banner_model');
-			$data['banners']			= $this->Banner_model->get_homepage_banners(5);
 				
 		if (!$data['category'])
 		{
-			show_404();
+		echo 5;
+			//show_404();
 		}
 		
 		//set up pagination

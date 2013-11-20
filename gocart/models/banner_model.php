@@ -7,14 +7,12 @@ Class Banner_model extends CI_Model
 		{
 			$this->db->limit($limit);
 		}
-		
 		return $this->db->order_by('sequence ASC')->get('banners')->result();
 	}
 	
 	function get_homepage_banners($limit = false)
 	{
 		$banners	= $this->db->order_by('sequence ASC')->get('banners')->result();
-		
 		$count	= 1;
 		foreach ($banners as &$banner)
 		{
